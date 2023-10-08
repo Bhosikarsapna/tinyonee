@@ -1,0 +1,21 @@
+
+
+<section class="feature section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1 text-center">
+                <h2 class="pri-heading">
+                    Tinyone features
+                </h2>
+                <p class="para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6" *ngFor="let card of featureCardArray">
+                <app-feature-cards [featureCard]="card"></app-feature-cards>
+            </div>
+        </div>
+    </div>
+</section>

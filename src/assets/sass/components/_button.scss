@@ -1,0 +1,27 @@
+
+
+
+.pri-button{
+    background-color: $color-primary !important;
+    border: 1px solid $color-primary !important;
+    transition: all .5s ease-in-out;
+    color: $color-dark !important;
+    border-radius: 5px;
+    &:hover,
+    &:active,
+    &:focus{
+        background-color: $color-dark !important;
+        color: $color-primary !important;
+    }
+}
+
+
+
+input#email {
+    width: calc(100% - 90px);
+}
+
+.form-inline{
+ 
+    margin-bottom: 5rem;
+}

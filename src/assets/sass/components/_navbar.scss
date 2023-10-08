@@ -1,0 +1,13 @@
+
+.mainHeader {
+    &.bg-light {
+        background-color: transparent !important;
+    }
+
+    .mainHeader, .navbar-nav .activ, .nav-link {
+        color:$color-secondary !important;
+        font-size: 22px;
+        text-transform: capitalize;
+    }
+}
+
